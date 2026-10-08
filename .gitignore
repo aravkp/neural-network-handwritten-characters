@@ -1,0 +1,10 @@
+# Python environment (recreate with: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt)
+.venv/
+__pycache__/
+
+# MNIST/EMNIST (1.7 GB) - the notebook downloads them on first run
+data/
+
+# Jupyter / macOS
+.ipynb_checkpoints/
+.DS_Store
